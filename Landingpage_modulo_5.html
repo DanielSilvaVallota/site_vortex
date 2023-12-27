@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vortex - A sua loja de games</title>
+    <link rel="stylesheet" href="Landingpage_modulo_5.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div>
+                <img class="logo" src="./Imagens/Logo/Vortex .png" alt="logo da loja de games">
+            </div>
+            <!--<h1>GAMER STORE</h1>u-->
+            <nav> <!--vou criar menu e os links e o menu-->
+                <ul> <!--usando lista n'ao ordenada-->
+                    <li>
+                        <a href="#about">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--vou criar as secoes e colunas, na direita vai ter 
+    a foto da fachada e na direita vai ter as informacoes com pequenas 
+fotos dos produtos
+vou criar uma div com a classe container-->
+    <section> 
+        <div class="container">
+            <img class="store-front" src="./Imagens/Imagens/images/loja.jpg" alt="fachada da loja"><!--vou criar
+            mais uma div que sera o container do conteudo de texto-->
+            <div>
+                <h2>Sobre a loja</h2>
+                <p> <!--p para criar um paragrafo sobre a loja -->
+                    Somos apaixonados por games. 
+                <p>
+                    <p>
+                        Na Vortex, oferecemos uma ampla seleção de jogos, desde os clássicos até os lançamentos mais recentes. Nossa equipe está aqui para ajudar e proporcionar uma experiência excepcional.
+                        Acreditamos na diversidade, inclusão e acessibilidade nos games. Queremos ser mais do que uma loja, buscamos criar uma comunidade acolhedora para todos os tipos de jogadores.
+                        Junte-se a nós na Vortex, onde os jogos se tornam experiências memoráveis.
+                    </p>
+            <ul class="brands-list"> <!--criei ula classe com o nome de brands para dimunuir o 
+                tamanho das imagens que add-->
+                    <li><img src="./Imagens/Imagens/images/nintendo.png" alt="logo da nintendo"></li>
+                    <li><img src="./Imagens/Imagens/images/xbox.png" alt="logo da xbox"></li>
+                    <li><img src="./Imagens/Imagens/images/playstation.png" alt="logo do playstation"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact"> <!--foi criado id para poder subscrever a regra (display flex)
+    no contato pq esta aparecendo uma do lado da outra para que apenas a sub secao 
+tenha aparencia de coluna -->
+        <div class="container">
+                <h2>Contato</h2>
+                <div class="contact-methods">
+                    <div>
+                        <h3>Fale conosco</h3>
+                        <form>
+                            <input type="text" placeholder="Seu nome" required>
+                            <input type="email" placeholder="Seu email" required>
+                            <input type="tel" placeholder="Seu telefone (opcional)">
+                            <textarea name="#" id="" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                        </form>
+                        </div>
+                    <div>
+                        <h3>Nos acompanhe</h3>
+                        <ul class="social-links"> <!--criei uma classe dentro da lista para mexer no 
+                        tamanho das fotos da rede social -->
+                            <li>
+                                <a href="#"> <title>Siga-nos no Instagran</title>
+                                    <img src="./Imagens/Imagens/images/instagram.png" alt="logo do Instagran">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"> <title>Siga-nos no Facebook</title>
+                                    <img src="./Imagens/Imagens/images/facebook.png" alt="logo do Facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"> <title>Visite-nos no Youtube</title>
+                                    <img src="./Imagens/Imagens/images/youtube.png" alt="logo do Youtube">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Venha até nós</h3>
+                        <div class="maps-link">
+                            <a 
+                                href="https://www.google.com.br/maps/place/Av.+Paulista,+244+-+Bela+Vista,+S%C3%A3o+Paulo+-+SP,+01310-000/@-23.5692681,-46.6489681,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce59be7d6420fd:0x5f4feab320dda6c3!8m2!3d-23.569273!4d-46.6463932?entry=ttu">Avenida Paulista, 244 - Bela Vista - São Paulo - SP 
+                            </a>
+                        </div>
+                        <div class="map-img">
+                            <img src="./Imagens/Imagens/images/Captura de Tela 2023-12-27 às 11.45.14 (2).png"alt="">
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <div id="rodape">
+            <p>
+                &copy; Vortex Shop - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
